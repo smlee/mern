@@ -5,7 +5,7 @@ STILL WORKING ON IT!!!
 
 ## Contents
 - [Installing mern](https://github.com/smlee/mern/blob/master/README.md#installing-mern)
-- [Generating your mern app](https://github.com/smlee/mern/blob/master/README.md#generating-your-mern-skeleton)
+- [Generating your mern skeleton](https://github.com/smlee/mern/blob/master/README.md#generating-your-mern-skeleton)
 
 ## Installing mern
 Install mern globally:

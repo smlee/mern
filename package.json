@@ -8,7 +8,8 @@
     "dependencies": {
         "bluebird": "^2.9.13",
         "chalk": "^1.0.0",
-        "ncp": "^2.0.0"
+        "ncp": "^2.0.0",
+        "mkdir-p": "^0.0.6"
     },
     "repository": {
         "type": "git",
