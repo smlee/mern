@@ -1,0 +1,21 @@
+{
+    "name": "mern",
+    "version": "0.0.1",
+    "description": "MERN stack skeleton generator",
+    "bin": {
+        "mern": "bin/mern"
+    },
+    "dependencies": {
+        "bluebird": "^2.9.13",
+        "chalk": "^1.0.0",
+        "ncp": "^2.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/smlee/mern.git"
+    },
+    "author": {
+        "name": "Sangmin Lee",
+        "email": "sangmlee23@gmail.com"
+    }
+}
