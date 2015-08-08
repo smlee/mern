@@ -6,7 +6,7 @@ import mongoose from  'mongoose';
 const DB_URI = require(path.join(__dirname, '../env')).DB_URI;
 const db = mongoose.connect(DB_URI).connection;
 
-require('./models');
+import './models';
 
 let startDbPromise = new Promise(resolve, reject => {
     db.on('open', resolve);
