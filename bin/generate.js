@@ -16,6 +16,7 @@ var generatorFilesPath = path.join(__dirname, '../mernFiles');
 var renameBabelrc = function () {
     var oldPath = path.join(newProjectDir, 'babelrc.txt');
     var newPath = path.join(newProjectDir, '.babelrc');
+    return rename(oldPath, newPath);
 }
 
 var renameGitignore = function () {
@@ -44,7 +45,9 @@ var cpFiles = function () {
         console.log(chalk.white.bgBlue('> gulp'));
         console.log(chalk.red('In another terminal...'));
         console.log(chalk.white.bgBlue('> npm start'));
-    });
+    }).catch(function(err){
+            console.log(chalk.red(err.stack));
+        });
 };
 
 
